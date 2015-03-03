@@ -5,8 +5,8 @@ url: "https://bcbcb.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: bren's blog
+  avatar:
   gravatar: # email md5 hash
   description: "A website with blog posts and pages" # used by search engines
   
@@ -26,7 +26,7 @@ theme:
   dribbble: 
   facebook: 
   flickr: 
-  github: "rohanchandra/type-theme"
+  github: "bcbcb"
   google_plus: 
   instagram: 
   linkedin:  # full URL
