@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/blog/"
-url: "https://bcbcb.github.io"
+baseurl:
+url: "https://blog.bren.me"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
