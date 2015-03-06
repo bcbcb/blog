@@ -7,17 +7,14 @@ theme:
   # Meta
   title: bren's blog
   avatar:
-  gravatar: # email md5 hash
-  description: "A website with blog posts and pages" # used by search engines
-  
+  gravatar:
+  description: "software and stuff" # used by search engines
+
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
-  
+
   # Icons
   rss: false
   email_address: # full email address, e.g. "sam@example.com"
@@ -29,21 +26,21 @@ theme:
   github: "bcbcb"
   google_plus: 
   instagram: 
-  linkedin:  # full URL
+  linkedin:
   pinterest: 
   reddit: 
   soundcloud: 
   stack_exchange:  # full URL
   steam: 
   tumblr: 
-  twitter: "twitter"
+  twitter: "bcbcb"
   wordpress: 
   youtube: 
-  
+
   # Scripts
   google_analytics: # tracking id, e.g. "UA-000000-01"
   disqus_shortname:
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -51,7 +48,7 @@ theme:
   str_next: "Next"
   str_prev: "Prev"
   str_continue_reading: "Continue reading"
-  
+
   # Colors, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
