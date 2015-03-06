@@ -22,13 +22,13 @@ Bash aliases and functions should be added to your .bashrc (or .zshrc if you use
 
 My toy problem alias looks like this:
 
-```
+{% highlight bash %}
 toy() {
   cd ~/toy-problems
   git pull —no-edit upstream master
   subl .
 }
-```
+{% endhighlight %}
 
 By running `toy` in the command line, it cd’s into the right folder. Then it does a git pull. The “-no-edit” flag automatically merges the new file and does not ask me to look at it. Then it opens sublime into the Toy Problem folder for me to begin working. Awesome.
 
@@ -37,9 +37,11 @@ But wait, there’s more!
 When finished with the problem, I made another alias to submit it. The manual way is to open up git, look for the Hack Reactor repo, open the Pull Request page, look for your repo, look for your branch, and then finally click the Open Pull Request button.
 
 I aliased this into 
-```
+
+{% highlight bash %}
 alias toypr=“open https://github.com/bcbcb/2014-12-toy-problems/compare/hackreactor:bcbcb...bcbcb:master”
-```
+{% endhighlight %}
+
 
 Now when I type `toypr` in the command line, it opens up Github with  Github thankfully makes this easy by having a consistent URL for comparing to branches from different repos. Modify the URL appropriately for your own account and repo. 
 

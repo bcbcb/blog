@@ -9,12 +9,17 @@ You can try to make JSHint ignore JSX, but it requires wrapping every portion of
 
 You can also just compile JSX into regular Javascript before running it through JSHint. If you're using something like [Browserify](http://browserify.org/) to compile your JSX, you may end up with duplicate tasks and modules for compiling JSX.
 
-The cleanest solution I've found is to use an alternative Javascript linter called [ESLint](http://eslint.org/). ESLint is relatively new and allows for more flexible rule configurations. It also recently added support for linting JSX syntax.
+The cleanest solution I've found is to use an alternative Javascript linter called [ESLint](http://eslint.org/).
 
-You can install ESLint globally with NPM and manually run `eslint` on your JS files. Or you can just use the ESLint module for gulp. Neither lint JSX by default. 
+## ESLint
 
-Here's how to set up Gulp to lint JSX:
+ESLint is newer and allows for more flexible rule configurations. It also recently added support for linting JSX syntax.
 
+You can install ESLint globally with NPM and manually run `eslint` on your JS files. Or you can just use the ESLint module for gulp.
+
+Keep in mind that **ESLint does not lint JSX by default.**
+
+Here's how to set up ESLint with Gulp to lint JSX:
 
 ### npm
 

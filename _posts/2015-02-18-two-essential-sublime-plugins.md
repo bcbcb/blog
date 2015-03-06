@@ -11,21 +11,23 @@ Here are, in my experience, the 2 most helpful Sublime plugins for web developer
 
 A linter validates your code’s syntax and let’s you know where you screwed up. Having a linter in Sublime that shows you where there are errors is extremely valuable and saves you so much time and headaches.
 
-For example if you write
-```
-console.log(‘typo!);
-```
+For example if you write:
+
+{% highlight js %}
+console.log('missingendquote!);
+{% endhighlight %}
 
 The linter would highlight not only this line, but also the specific characters that are causing syntax errors. If you don’t have a linter, you would have to scan the file with your own eyes while parsing syntax in your head. Stop doing that and save your brainpower for more important things.
 
 The most popular linter plugin is SublimeLinter. SublimeLinter itself isn’t language specific, so that means you’d have to install extra things to get it to lint whatever language.
 
 For JavaScript linting in Sublime, you can do the following: 
-  - Install SublimeLinter in Sublime Package Manager
-  - Install SublimeLinter-jshint in Sublime Package Manager
-  - If you don’t have node, install node
-  - Install jshint through npm as a global module   
-    ```npm install -g jshint```
+
+  * Install SublimeLinter in Sublime Package Manager
+  * Install SublimeLinter-jshint in Sublime Package Manager
+  * If you don’t have node, install node
+  * Install jshint through npm as a global module: `npm install -g jshint`
+
 
 ## GitGutter
 
@@ -39,4 +41,6 @@ This plugin saves lots of time when you forget exactly what you changed, or if t
 
 ## Other plugins?
 
-Yes, there are lots of other cool plugins. But if you do web development, and you use Sublime and Git, install these 2 first.  I could uninstall every other plugin and I wouldn’t miss them. But not having a linter and GitGutter makes me 
+Yes, there are lots of other cool plugins. 
+
+But if you do web development, and you use Sublime and Git, install these 2 first.
